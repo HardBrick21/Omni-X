@@ -100,9 +100,15 @@ result = interface.execute_skill(
 
 ## Documentation
 
+### For AI Agents
 - **[AI_AGENT_GUIDE.md](AI_AGENT_GUIDE.md)** - Complete guide for AI agents with all skill details
-- **[LOGIN_GUIDE.md](LOGIN_GUIDE.md)** - Authentication and login instructions
+- **[AI_TESTING_GUIDE.md](AI_TESTING_GUIDE.md)** - Comprehensive testing guide with 5 testing methods
+- **[AGENT_SKILLS_BEST_PRACTICES.md](AGENT_SKILLS_BEST_PRACTICES.md)** - Best practices based on Claude's guidelines
 - **[agent_example.py](agent_example.py)** - Example code for AI agent integration
+
+### General
+- **[LOGIN_GUIDE.md](LOGIN_GUIDE.md)** - Authentication and login instructions
+- **[INSTALLATION.md](INSTALLATION.md)** - Installation guide
 
 ## Examples
 
