@@ -1,6 +1,8 @@
 # Omni-X Twitter Skills
 
-A skill project for agents to extract Twitter data including tweets, followers, followings, profile details, and media.
+> A skill project for agents to extract Twitter data including tweets, followers, followings, profile details, and media.
+
+[![中文文档](https://img.shields.io/badge/docs-%E4%B8%AD%E6%96%87-0F766E?style=flat-square)](./README_CN.md)
 
 ## 🙏 Acknowledgments
 
@@ -30,8 +32,6 @@ All the Twitter data extraction capabilities in Omni-X are powered by TweeterPy.
 ```bash
 pip install -r requirements.txt
 ```
-
-**📖 详细安装说明：** 查看 [INSTALLATION.md](INSTALLATION.md) 了解 AI Agent 如何使用此项目的完整指南。
 
 ## Usage
 
