@@ -13,7 +13,7 @@ class TwitterSkillInterface:
     Each method returns a structured response with metadata.
     """
     
-    def __init__(self, auth_token: str = None):
+    def __init__(self, auth_token: str = None, rate_limit_delay: float = 1.0):
         """
         Initialize the Twitter Skill Interface.
         
@@ -21,13 +21,12 @@ class TwitterSkillInterface:
             auth_token: Optional Twitter auth_token for authenticated access.
                        If provided, enables access to all features.
                        If not provided, uses guest session (limited features).
+            rate_limit_delay: Delay in seconds between requests (default: 1.0).
+                            Recommended: 1-2 seconds for normal operations,
+                            2-3 seconds for bulk operations.
         """
-        self.skills = TwitterSkills()
+        self.skills = TwitterSkills(auth_token=auth_token, rate_limit_delay=rate_limit_delay)
         self.available_skills = self._register_skills()
-        
-        # If auth_token is provided, authenticate immediately
-        if auth_token:
-            self.set_auth_token(auth_token)
     
     def set_auth_token(self, auth_token: str) -> Dict[str, Any]:
         """
@@ -43,7 +42,7 @@ class TwitterSkillInterface:
             self.skills.twitter.generate_session(auth_token=auth_token)
             return {
                 "success": True,
-                "message": "Authentication successful"
+                "message": "Authentication successful. Rate limiting is enabled to comply with best practices."
             }
         except Exception as e:
             return {

@@ -123,6 +123,32 @@ python agent_example.py
 - Python 3.7+
 - tweeterpy
 
+## ⚠️ Disclaimer and Terms of Use
+
+**This project is for educational and research purposes only.**
+
+By using this tool, you agree to:
+
+1. **Comply with X (Twitter) Terms of Service**: You are responsible for ensuring your use of this tool complies with [X (Twitter)'s Terms of Service](https://twitter.com/tos) and [Developer Agreement](https://developer.twitter.com/en/developer-terms/agreement-and-policy).
+
+2. **Respect Rate Limits**: Implement appropriate delays between requests to avoid overwhelming X (Twitter)'s servers. Excessive requests may result in temporary or permanent restrictions on your account.
+
+3. **Use Responsibly**: 
+   - Do not use this tool for spam, harassment, or any malicious activities
+   - Respect user privacy and data protection regulations (GDPR, CCPA, etc.)
+   - Only extract publicly available data
+   - Do not redistribute or sell extracted data without proper authorization
+
+4. **No Warranty**: This tool is provided "as is" without any warranties. The authors are not responsible for any consequences resulting from the use of this tool.
+
+5. **Account Risk**: Using automated data extraction tools may violate X (Twitter)'s terms and could result in account suspension. Use at your own risk.
+
+**Recommended Best Practices:**
+- Implement rate limiting (e.g., 1-2 second delays between requests)
+- Use reasonable request counts (start small, increase gradually)
+- Cache results to minimize repeated requests
+- Monitor your account for any warnings or restrictions
+
 ## Login Requirements
 
 Some features require Twitter authentication:

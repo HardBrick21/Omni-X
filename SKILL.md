@@ -380,11 +380,16 @@ if followers["success"] and followings["success"]:
 1. **Always provide auth_token when possible** - Many features require authentication
 2. **Check success field first** - Always verify `result["success"]` before accessing data
 3. **Handle pagination** - Use `cursor` field for large datasets
-4. **Respect rate limits** - Implement delays between requests
+4. **Respect rate limits** - **CRITICAL**: Implement delays between requests to avoid account restrictions
+   - Recommended: 1-2 second delay between requests
+   - For bulk operations: 2-3 second delay
+   - Monitor for rate limit errors and back off exponentially if encountered
 5. **Cache results** - Avoid repeated requests for the same data
 6. **Validate usernames** - Remove @ symbol and validate format before calling
-7. **Use appropriate count values** - Start with small counts and increase as needed
+7. **Use appropriate count values** - Start with small counts (10-20) and increase gradually as needed
 8. **Handle errors gracefully** - Provide meaningful feedback to users
+9. **Comply with Terms of Service** - Ensure all usage complies with X (Twitter) Terms of Service
+10. **Educational/Research Use Only** - This tool is intended for educational and research purposes only
 
 ## Authentication Guide
 
