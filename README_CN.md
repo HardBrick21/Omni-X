@@ -98,10 +98,14 @@ result = interface.execute_skill(
 
 ## 文档
 
-- **[AI_AGENT_GUIDE.md](AI_AGENT_GUIDE.md)** - AI 代理完整指南，包含所有技能详情（英文）
-- **[LOGIN_GUIDE.md](LOGIN_GUIDE.md)** - 身份验证和登录说明（英文）
-- **[INSTALLATION.md](INSTALLATION.md)** - 安装和使用指南（英文）
+### AI 代理文档
+- **[SKILL.md](SKILL.md)** - 核心技能定义和使用指南（AI 代理入口点）（英文）
+- **[references/AI_AGENT_GUIDE.md](references/AI_AGENT_GUIDE.md)** - AI 代理完整 API 参考（英文）
 - **[agent_example.py](agent_example.py)** - AI 代理集成示例代码
+
+### 通用文档
+- **[references/LOGIN_GUIDE.md](references/LOGIN_GUIDE.md)** - 身份验证和登录说明（英文）
+- **[references/INSTALLATION.md](references/INSTALLATION.md)** - 安装和使用指南（英文）
 
 ## 示例
 
@@ -131,7 +135,7 @@ python agent_example.py
 - get_user_media
 - search_tweets
 
-详细登录说明请参阅 [LOGIN_GUIDE.md](LOGIN_GUIDE.md)（英文）。
+详细登录说明请参阅 [references/LOGIN_GUIDE.md](references/LOGIN_GUIDE.md)（英文）。
 
 ## 为什么使用技能接口？
 

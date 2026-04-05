@@ -101,12 +101,13 @@ result = interface.execute_skill(
 ## Documentation
 
 ### For AI Agents
-- **[AI_AGENT_GUIDE.md](AI_AGENT_GUIDE.md)** - Complete guide for AI agents with all skill details
+- **[SKILL.md](SKILL.md)** - Core skill definition and usage guide (entry point for AI agents)
+- **[references/AI_AGENT_GUIDE.md](references/AI_AGENT_GUIDE.md)** - Complete API reference for AI agents
 - **[agent_example.py](agent_example.py)** - Example code for AI agent integration
 
 ### General
-- **[LOGIN_GUIDE.md](LOGIN_GUIDE.md)** - Authentication and login instructions
-- **[INSTALLATION.md](INSTALLATION.md)** - Installation guide
+- **[references/LOGIN_GUIDE.md](references/LOGIN_GUIDE.md)** - Authentication and login instructions
+- **[references/INSTALLATION.md](references/INSTALLATION.md)** - Installation guide
 
 ## Examples
 
@@ -136,7 +137,7 @@ Some features require Twitter authentication:
 - get_user_media
 - search_tweets
 
-See [LOGIN_GUIDE.md](LOGIN_GUIDE.md) for detailed login instructions.
+See [references/LOGIN_GUIDE.md](references/LOGIN_GUIDE.md) for detailed login instructions.
 
 ## Why Use the Skill Interface?
 
