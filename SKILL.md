@@ -27,6 +27,11 @@ tags: [twitter, x, social-media, data-extraction, api]
 
 This skill provides AI agents with the ability to extract various types of data from X (Twitter) platform, including user profiles, posts, followers, followings, media content, and search results.
 
+## Prerequisites
+- Python 3.7+ installed
+- Dependencies installed (see `references/INSTALLATION.md`)
+
+
 ## Workflow
 
 ### Step 1: Initialize the Skill Interface
