@@ -1,6 +1,6 @@
-# Omni-X Twitter Skills
+# Omni-X - X (Twitter) Skills
 
-> A skill project for agents to extract Twitter data including tweets, followers, followings, profile details, and media.
+> A skill project for agents to extract X (Twitter) data including posts, followers, followings, profile details, and media.
 
 [![中文文档](https://img.shields.io/badge/docs-%E4%B8%AD%E6%96%87-0F766E?style=flat-square)](./README_CN.md)
 

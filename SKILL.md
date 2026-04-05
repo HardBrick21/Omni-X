@@ -1,7 +1,7 @@
 ---
-name: twitter-data-extractor
+name: omni-x-data-extractor
 description: |
-  Extract Twitter/X data including user profiles, tweets, followers, followings, media, and search results.
+  Extract X (Twitter) data including user profiles, posts, followers, followings, media, and search results.
   This skill provides comprehensive Twitter data extraction capabilities using the tweeterpy library.
   
   Trigger scenarios:
@@ -21,11 +21,11 @@ category: social-media
 tags: [twitter, x, social-media, data-extraction, api]
 ---
 
-# Twitter Data Extractor Skill
+# X (Twitter) Data Extractor Skill
 
 ## Overview
 
-This skill provides AI agents with the ability to extract various types of data from Twitter/X platform, including user profiles, tweets, followers, followings, media content, and search results.
+This skill provides AI agents with the ability to extract various types of data from X (Twitter) platform, including user profiles, posts, followers, followings, media content, and search results.
 
 ## Workflow
 
